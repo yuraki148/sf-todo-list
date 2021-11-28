@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ToDoCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>ToDoカテゴリ</label>
+    <referenceTo>ToDoCategory__c</referenceTo>
+    <relationshipLabel>Todo詳細</relationshipLabel>
+    <relationshipName>TodoCategory</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
