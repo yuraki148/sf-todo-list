@@ -1,0 +1,23 @@
+<template>
+  <div class="slds-var-p-around_xx-small slds-theme_default">
+    <div class="slds-var-p-around_xx-small slds-text-body_regular" if:true={wiredToDoCategories.error}>
+      カテゴリがありません。
+    </div>
+
+    <div class="slds-var-p-around_xx-small" if:true={wiredToDoCategories.data}>
+        <div class="slds-text-body_regular slds-var-p-around_xx-small">
+            カテゴリを選択してください。
+        </div>
+
+        <lightning-datatable
+          key-field="id"
+          data={wiredToDoCategories.data}
+          show-row-number-column
+          columns={columnsList}
+          max-row-selection="1"
+          onrowselection={handleRowSelection}
+        >
+        </lightning-datatable>
+    </div>
+</div>
+</template>

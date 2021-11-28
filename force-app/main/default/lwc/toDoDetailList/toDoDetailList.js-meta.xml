@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>ToDo Detail List</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+      <targetConfig targets="lightning__AppPage">
+        <property name="recordId" type="String" label="ToDoCategory Record Id" />
+        <property name="categoryName" type="String" label="Category Name" />
+      </targetConfig>
+    </targetConfigs>
+    <description>ToDOカテゴリに紐づくToDo詳細を表示します。</description>
+</LightningComponentBundle>
