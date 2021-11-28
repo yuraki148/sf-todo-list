@@ -1,7 +1,7 @@
 # About
 
 ## Reference
-[publish-lwc-events-to-app-builder](https://github.com/rahulgawale/publish-lwc-events-to-app-builder)を参考に作成
+Created with reference to [publish-lwc-events-to-app-builder](https://github.com/rahulgawale/publish-lwc-events-to-app-builder).
 
 ## Demo
 ![demo](https://user-images.githubusercontent.com/72431870/143768214-b1e00210-4529-43bf-b427-694c7efbfe11.gif)
