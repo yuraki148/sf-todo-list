@@ -1,18 +1,21 @@
-# Salesforce DX Project: Next Steps
+# About
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Reference
+[publish-lwc-events-to-app-builder](https://github.com/rahulgawale/publish-lwc-events-to-app-builder)を参考に作成
 
-## How Do You Plan to Deploy Your Changes?
+## Demo
+![demo](https://user-images.githubusercontent.com/72431870/143768214-b1e00210-4529-43bf-b427-694c7efbfe11.gif)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+It only works Lightning application page.
+![スクリーンショット 2021-11-28 21 45 01](https://user-images.githubusercontent.com/72431870/143768292-45efd6a1-1c17-4512-a89f-e471b6ac3d22.png)
 
-## Configure Your Salesforce DX Project
+You can control which components are received events by components.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Hou to Use
 
-## Read All About It
+1.　Open the app builder and select ToDo Category List.
+2.　Click Interactions and Add Interaction.
+![How to use #1](https://user-images.githubusercontent.com/72431870/143768575-b2ed5513-d81f-40b9-a560-d6b42362a811.png)
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+3.　Set properties using event properties.
+![How to use #2](https://user-images.githubusercontent.com/72431870/143768696-056b8748-412f-48b8-85a3-016bcd24e307.png)
