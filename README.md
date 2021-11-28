@@ -14,6 +14,7 @@ You can control which components are received events by components.
 ## Hou to Use
 
 1.　Open the app builder and select ToDo Category List.
+
 2.　Click Interactions and Add Interaction.
 ![How to use #1](https://user-images.githubusercontent.com/72431870/143768575-b2ed5513-d81f-40b9-a560-d6b42362a811.png)
 
