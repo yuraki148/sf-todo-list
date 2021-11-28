@@ -1,0 +1,21 @@
+<template>
+  <div class="slds-var-p-around_xx-small slds-theme_default">
+    <div class="slds-var-p-around_xx-small slds-text-body_regular" if:true={wiredDetails.error}>
+        ToDoが見つかりませんでした。。
+    </div>
+    <div class="slds-var-p-around_xx-small" if:true={wiredDetails.data} >
+      <div class="slds-text-body_regular slds-var-p-around_xx-small">
+          選択したカテゴリ: <b>{categoryName}</b>
+      </div>
+
+      <lightning-datatable
+          key-field="id"
+          data={wiredDetails.data}
+          show-row-number-column
+          hide-checkbox-column
+          columns={columnsList}
+      >
+      </lightning-datatable>
+    </div>
+  </div>
+</template>
